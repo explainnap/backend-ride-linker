@@ -81,4 +81,40 @@ router.post('/:groupId/add', verifyToken, async (req, res) => {
     }
 });
 
+// ✅ Mark ride as complete
+router.patch('/rides/:rideId/complete', async (req, res) => {
+    try {
+        const ride = await Ride.findById(req.params.rideId);
+        if (!ride) {
+            return res.status(404).json({ message: "Ride not found." });
+        }
+
+        ride.isComplete = true;
+        await ride.save();
+
+        res.status(200).json(ride);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: "Server error updating ride." });
+    }
+});
+
+// Undo ride completion
+router.patch('/rides/:rideId/incomplete', async (req, res) => {
+    try {
+      const ride = await Ride.findById(req.params.rideId);
+      if (!ride) {
+        return res.status(404).json({ message: "Ride not found." });
+      }
+  
+      ride.isComplete = false;
+      await ride.save();
+  
+      res.status(200).json(ride);
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ message: "Server error updating ride." });
+    }
+  });
+
 module.exports = router;
