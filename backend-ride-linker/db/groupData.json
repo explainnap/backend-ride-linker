@@ -1,0 +1,68 @@
+[
+    {
+      "id": "group1",
+      "name": "Coastal Cruisers",
+      "description": "Scenic rides along the coastline.",
+      "distance": "120 miles",
+      "users": [],
+      "rides": [
+        { "id": "ride1", "name": "Sunrise Ride", "group": "group1", "distance": "25 miles", "text": "15 mph average speed", "isComplete": false },
+        { "id": "ride2", "name": "Beach Sprint", "group": "group1", "distance": "15 miles", "text": "20 mph average speed", "isComplete": true },
+        { "id": "ride3", "name": "Harbor Loop", "group": "group1", "distance": "30 miles", "text": "12 mph average speed", "isComplete": false },
+        { "id": "ride4", "name": "Cliffside Cruise", "group": "group1", "distance": "50 miles", "text": "14 mph average speed", "isComplete": true }
+      ]
+    },
+    {
+      "id": "group2",
+      "name": "Mountain Masters",
+      "description": "Challenging mountain routes for experienced riders.",
+      "distance": "300 miles",
+      "users": [],
+      "rides": [
+        { "id": "ride5", "name": "Summit Sprint", "group": "group2", "distance": "40 miles", "text": "10 mph average speed", "isComplete": true },
+        { "id": "ride6", "name": "Alpine Adventure", "group": "group2", "distance": "60 miles", "text": "12 mph average speed", "isComplete": false },
+        { "id": "ride7", "name": "Hill Climber", "group": "group2", "distance": "35 miles", "text": "11 mph average speed", "isComplete": true },
+        { "id": "ride8", "name": "Peak Pursuit", "group": "group2", "distance": "55 miles", "text": "9 mph average speed", "isComplete": false }
+      ]
+    },
+    {
+      "id": "group3",
+      "name": "City Sprinters",
+      "description": "Fast-paced rides through the cityscape.",
+      "distance": "80 miles",
+      "users": [],
+      "rides": [
+        { "id": "ride9", "name": "Downtown Dash", "group": "group3", "distance": "20 miles", "text": "18 mph average speed", "isComplete": true },
+        { "id": "ride10", "name": "Night Lights Ride", "group": "group3", "distance": "25 miles", "text": "16 mph average speed", "isComplete": false },
+        { "id": "ride11", "name": "Bridge Run", "group": "group3", "distance": "15 miles", "text": "17 mph average speed", "isComplete": true },
+        { "id": "ride12", "name": "City Circuit", "group": "group3", "distance": "20 miles", "text": "19 mph average speed", "isComplete": false }
+      ]
+    },
+    {
+      "id": "group4",
+      "name": "Forest Explorers",
+      "description": "Nature-focused rides through forests and trails.",
+      "distance": "150 miles",
+      "users": [],
+      "rides": [
+        { "id": "ride13", "name": "Woodland Wander", "group": "group4", "distance": "40 miles", "text": "13 mph average speed", "isComplete": false },
+        { "id": "ride14", "name": "Trail Trek", "group": "group4", "distance": "35 miles", "text": "12 mph average speed", "isComplete": true },
+        { "id": "ride15", "name": "Hidden Paths", "group": "group4", "distance": "45 miles", "text": "11 mph average speed", "isComplete": false },
+        { "id": "ride16", "name": "Forest Loop", "group": "group4", "distance": "30 miles", "text": "14 mph average speed", "isComplete": true }
+      ]
+    },
+    {
+      "id": "group5",
+      "name": "Weekend Warriors",
+      "description": "Relaxed yet adventurous weekend rides.",
+      "distance": "200 miles",
+      "users": [],
+      "rides": [
+        { "id": "ride17", "name": "Saturday Spin", "group": "group5", "distance": "50 miles", "text": "13 mph average speed", "isComplete": true },
+        { "id": "ride18", "name": "Sunday Cruise", "group": "group5", "distance": "40 miles", "text": "14 mph average speed", "isComplete": false },
+        { "id": "ride19", "name": "Lazy Loop", "group": "group5", "distance": "35 miles", "text": "12 mph average speed", "isComplete": true },
+        { "id": "ride20", "name": "Brunch Break Ride", "group": "group5", "distance": "25 miles", "text": "10 mph average speed", "isComplete": false }
+      ]
+    }
+  ]
+  
