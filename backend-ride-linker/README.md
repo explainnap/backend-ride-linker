@@ -86,7 +86,11 @@ Don't forget to run the seed script to populate your database!
 ### ✅ Future Improvements (stretch goals)
 
 🚀 User profile management
+
+🚀 User commnets
+
 🚀 Tests for routes and controllers
+
 🚀 Better error handling and status codes
 
 
