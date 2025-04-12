@@ -1,3 +1,7 @@
+
+![Screenshot 2025-04-12 at 13 21 59](https://github.com/user-attachments/assets/e37e5c39-9a39-40f4-b1f0-ef8cbfb8c4c6)
+
+
 # RideLinker Backend 🚴‍♂️
 
 This is the Express.js backend API for the RideLinker application.  
