@@ -1,6 +1,12 @@
 
 ![Screenshot 2025-04-12 at 13 21 59](https://github.com/user-attachments/assets/e37e5c39-9a39-40f4-b1f0-ef8cbfb8c4c6)
 
+Git repo for front end: https://github.com/explainnap/frontend-ride-linker
+
+
+Deployed site link: Coming soon!
+
+
 
 # RideLinker Backend 🚴‍♂️
 
